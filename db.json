@@ -1,0 +1,28 @@
+{
+  "assignments": [
+    {
+      "id": "1718035200000",
+      "title": "Sample Assignment",
+      "subject": "Mathematics",
+      "dueDate": "2024-06-15",
+      "priority": "High",
+      "completed": false
+    },
+    {
+      "id": "1718121600000",
+      "title": "Essay on History",
+      "subject": "History",
+      "dueDate": "2024-06-16",
+      "priority": "Medium",
+      "completed": true
+    },
+    {
+      "id": 1751106044429,
+      "title": "css",
+      "subject": "software",
+      "dueDate": "06/08/2025",
+      "priority": "Medium",
+      "completed": false
+    }
+  ]
+}

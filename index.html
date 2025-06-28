@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassPal - Assignment Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:400,500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+ <nav>
+  <div class="logo">ClassPal</div>
+  </div>
+</nav>
+  
+  <div class="container">
+    <h1>📚 ClassPal - Assignment Tracker</h1>
+    <p class="description">Easily track your assignments, stay organized, and never miss a deadline!</p>
+    <blockquote class="quote">"The secret of getting ahead is getting started." – Mark Twain</blockquote>
+
+    <!--Assignment Submission Form-->
+    <form id="assignment-form">
+        <input type="text" id="title" placeholder="Assignment Title" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <input type="text" id="due-date" placeholder="Due-date" required>
+        <select id="priority">
+            <option value="Low">Low</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="High">High</option>
+        </select>
+        <button type="submit">Add Assignment</button>
+    </form>
+
+    <!--Notification Section-->
+    <div id="notification" class="notification hidden"></div>
+
+    <!--List Section-->
+    <div class="list-section">
+      <h2>Assignments</h2>
+      <section id="assignment-list">
+      </section>
+    </div>
+
+    <!--Timer and Calendar Section-->
+    <div class="timer-calendar">
+      <div id="timer">Timer: 00:00</div>
+      <input type="date" id="calendar" />
+    </div>
+  </div>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
