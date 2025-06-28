@@ -9,7 +9,7 @@ fetch('http://localhost:3000/assignments')
   })
   .catch(error => {
     console.error('Error fetching assignments:', error);
-    // Fallback to localStorage if fetch fails
+    // Fallback to localStorage if fetch fails;
     const savedAssignments = localStorage.getItem("assignments");
     if (savedAssignments) {
       assignments = JSON.parse(savedAssignments);
