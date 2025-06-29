@@ -154,7 +154,7 @@ button:hover {
     font-weight: 600;
     font-size: 1.1rem;
     box-shadow: 0 2px 8px rgba(67,233,123,0.12);
-    display: none; /* Hidden by default */
+    display: none; 
     animation: fadeIn 0.7s;
 }
 .timer, .calendar {
