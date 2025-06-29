@@ -224,5 +224,5 @@ button:hover {
 }
 
 .assignment-item .delete-btn:hover {
-    background: #b71c1c;
+    background: red;
 }
