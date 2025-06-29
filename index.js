@@ -1,4 +1,4 @@
-// Fetch assignments from json-server on load
+// Fetch assignments from json-server on loa
 let assignments = [];
 
 fetch('http://localhost:3000/assignments')
@@ -15,6 +15,7 @@ fetch('http://localhost:3000/assignments')
       assignments = JSON.parse(savedAssignments);
       displayAssignments();
     }
+    
   });
 
 // Form elements
