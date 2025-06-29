@@ -1,4 +1,4 @@
-// Fetch assignments from json-server on loa
+// Fetch assignments from json-server on load
 let assignments = [];
 
 fetch('http://localhost:3000/assignments')
