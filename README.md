@@ -47,4 +47,4 @@ ClassPal-Assignment-Tracker
 This project is licensed under the MIT License.
 
 ## Author
-ClassPal - Assignment 
+ClassPal - Assignment Tracker
