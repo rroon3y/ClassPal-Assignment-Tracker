@@ -169,8 +169,6 @@ button:hover {
     font-size: 1.1rem;
     font-weight: 500;
 }
-
-
 .fade-in {
     animation: fadeIn 0.7s ease-in;
 }
