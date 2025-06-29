@@ -48,4 +48,4 @@ This project is licensed under the MIT License.
 
 ## Author
 ClassPal - Assignment Tracker
-Created
+Created by Rooney
