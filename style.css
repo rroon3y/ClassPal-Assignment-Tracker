@@ -157,7 +157,6 @@ button:hover {
     display: none; /* Hidden by default */
     animation: fadeIn 0.7s;
 }
-
 .timer, .calendar {
     margin-top: 28px;
     padding: 16px 20px;
