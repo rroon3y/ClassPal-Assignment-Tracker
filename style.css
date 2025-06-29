@@ -185,8 +185,6 @@ button:hover {
         transform: translateY(0);
     }
 }
-
-
 .assignment-item {
     display: flex;
     align-items: center;
